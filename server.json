@@ -1,0 +1,36 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desenvolvimento de site",
+      "type": "income",
+      "category": "Venda",
+      "price": 10000,
+      "createdAt": "2022-09-01T14:32:56.055Z"
+    },
+    {
+      "id": 2,
+      "description": "Internet",
+      "type": "outcome",
+      "category": "Boleto",
+      "price": 80,
+      "createdAt": "2022-04-01T14:30:56.055Z"
+    },
+    {
+      "id": 3,
+      "description": "Faculdade",
+      "type": "outcome",
+      "category": "Boleto",
+      "price": 49,
+      "createdAt": "2022-04-01T14:30:56.055Z"
+    },
+    {
+      "id": 4,
+      "description": "Salário",
+      "type": "income",
+      "category": "CEL",
+      "price": 4000,
+      "createdAt": "2022-04-01T14:30:56.055Z"
+    }
+  ]
+}
