@@ -31,6 +31,30 @@
       "category": "CEL",
       "price": 4000,
       "createdAt": "2022-04-01T14:30:56.055Z"
+    },
+    {
+      "description": "Conta de Água",
+      "price": 120,
+      "category": "Boleto",
+      "type": "outcome",
+      "createdAt": "2022-09-02T20:23:41.848Z",
+      "id": 5
+    },
+    {
+      "description": "Presente Letícia",
+      "price": 250,
+      "category": "Boleto",
+      "type": "outcome",
+      "createdAt": "2022-09-02T20:24:59.886Z",
+      "id": 6
+    },
+    {
+      "description": "Compras da Semana",
+      "price": 125,
+      "category": "Comida",
+      "type": "outcome",
+      "createdAt": "2022-09-02T20:35:13.613Z",
+      "id": 7
     }
   ]
 }
