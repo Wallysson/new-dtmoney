@@ -17,7 +17,7 @@ const newTransactionFormScheme = zod.object({
 type NewTransactionFormInputs = zod.infer<typeof newTransactionFormScheme>
 
 export function NewTransactionModal() {
-  const { createTransaction } = useContext(TransactionsContext)
+  const { createTransaction, closedModal } = useContext(TransactionsContext)
 
   const { 
     control,
@@ -43,6 +43,7 @@ export function NewTransactionModal() {
       type
     })
     reset()
+    closedModal(false)
   }
   
   return (
@@ -56,7 +57,11 @@ export function NewTransactionModal() {
 
         <Dialog.Title>Nova transação</Dialog.Title>
 
-        <form onSubmit={handleSubmit(handleCreateNewTransaction)}>
+        <form 
+          onSubmit=
+          {handleSubmit(handleCreateNewTransaction)}
+
+        >
           <input 
             type="text" 
             placeholder="Descrição" 
