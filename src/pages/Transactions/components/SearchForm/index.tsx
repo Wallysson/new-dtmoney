@@ -42,7 +42,7 @@ function SearchFormComponent() {
         disabled={isSubmitting}
       >
         <MagnifyingGlass size={20}/>
-        Buscar
+        <strong>Buscar</strong>
       </button>
     </SearchFormContainer>
   )

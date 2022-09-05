@@ -80,7 +80,7 @@ export function TransactionProvider({children}: TransactionProviderProps) {
       fetchTransactions,
       createTransaction,
       closedModal,
-      open
+      open,
       }}>
       {children}
     </TransactionsContext.Provider>
