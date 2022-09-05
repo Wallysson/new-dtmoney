@@ -31,6 +31,38 @@
       "type": "outcome",
       "createdAt": "2022-09-03T14:12:43.130Z",
       "id": 4
+    },
+    {
+      "description": "FGTS",
+      "price": 3200,
+      "category": "Salário",
+      "type": "income",
+      "createdAt": "2022-09-05T14:08:56.144Z",
+      "id": 5
+    },
+    {
+      "description": "Presente",
+      "price": 100,
+      "category": "Comida",
+      "type": "outcome",
+      "createdAt": "2022-09-05T14:52:22.144Z",
+      "id": 6
+    },
+    {
+      "description": "TEste",
+      "price": 121,
+      "category": "Boleto",
+      "type": "outcome",
+      "createdAt": "2022-09-05T15:03:40.659Z",
+      "id": 7
+    },
+    {
+      "description": "coxinha",
+      "price": 1000,
+      "category": "Comida",
+      "type": "outcome",
+      "createdAt": "2022-09-05T15:03:55.842Z",
+      "id": 8
     }
   ]
 }
